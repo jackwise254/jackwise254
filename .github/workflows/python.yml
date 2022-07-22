@@ -21,7 +21,7 @@ jobs:
         - name: commit files
           run: |
                 git config --local user.email "jackwise179@gmail.com"
-                git config --local user.name "jackwise254"
+                git config --local user.name "laravel"
                 git add -A
                 git commit -m "update data" -a
         
